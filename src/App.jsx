@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Tasks from './components/Tasks'
+import Tasks from './components/Tasks/Tasks'
 
 function App() {
   const [tasks, setTasks] = useState([
@@ -8,6 +8,11 @@ function App() {
       id: 1,
       title: 'Estudar programação',
       completed: false
+    },
+    {
+      id: 2,
+      title: 'Ler livros',
+      completed: true
     },
     {
       id: 2,
